@@ -1,0 +1,31 @@
+.other__pages {
+    &-btns {
+        @include flex($justify: center, $align: center);
+        margin-top: 75px;
+        margin-bottom: 55px;
+    }
+
+    .other__pages-btn {
+        .btn__image {
+            background: $color-yellow;
+            width: 128px;
+            height: 116px;
+            border-radius: 15px;
+            @include flex($justify: center, $align: center);
+        }
+
+        &:nth-child(1){
+            margin-right: 66px;
+        }
+
+        &:nth-child(2){
+            margin-left: 66px;
+        }
+
+        h5 {
+            color: $color-brown;
+            margin-top: 15px;
+            font-size: 19px;
+        }
+    }
+}

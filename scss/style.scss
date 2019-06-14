@@ -1,0 +1,25 @@
+@import 'Modules/variable.scss';
+@import 'Partials/reset.scss';
+
+// modules
+@import 'Modules/base.scss';
+@import 'Modules/mixins.scss';
+
+
+// partials
+@import 'Partials/fonts.scss';
+
+
+// functions
+@import 'Modules/functions.scss';
+
+// libraries
+@import 'Libraries/slick.scss';
+@import 'Libraries/slick-theme.scss';
+
+
+// components
+@import 'Components/components-import.scss';
+
+
+@import './pages/main-page/main-page--imports.scss';

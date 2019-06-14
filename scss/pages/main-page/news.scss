@@ -1,0 +1,35 @@
+.news {
+    &__container {
+        background: rgba(189, 178, 157, 0.28);
+        @include flex($wrap: wrap);
+        padding: 60px 17px;
+        border-radius: 45px;
+    }
+
+    &__item {
+        width: 475px;
+        height: 425px;
+        border-radius: 26px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        margin: 0 40px;
+
+        &:nth-child(1),
+        &:nth-child(2){
+            margin-bottom: 67px;
+        }
+
+        .news__title {
+            position: absolute;
+            bottom: 50px;
+            background: $color-yellow;
+            border-radius: 12px;
+            padding: 7px 10px;
+            line-height: 1.2;
+            font-size: 21px;
+            left: 35px;
+        }
+    }
+}
