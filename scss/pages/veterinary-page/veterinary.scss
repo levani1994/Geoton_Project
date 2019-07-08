@@ -1,0 +1,43 @@
+.veterinaries {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__user {
+        border-radius: 65px;
+        overflow: hidden;
+        width: 353px;
+        height: 350px;
+        margin-right: 27px;
+        position: relative;
+
+        &:nth-child(1),
+        &:nth-child(2){
+            margin-bottom: 70px;
+        }
+
+        .user {
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+        }
+
+        .user__title {
+            background: #FED217;
+            border-radius: 12px;
+            padding: 5px 10px;
+            position: absolute;
+            bottom: 40px;
+            left: 40px;
+            font-size: 16px;
+            color: #72675F;
+        }
+    }
+
+    .boss {
+        width: 736px;
+        
+        .user__title {
+            font-size: 19px;
+        }
+    }
+}

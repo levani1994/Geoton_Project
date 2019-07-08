@@ -9,8 +9,28 @@
     }
 
     // left
-    &-logo {
-        padding-right: 97px;
+    &__logo {
+        .tangue {
+            position: absolute;
+            top: 5px;
+            left: 7px;
+            z-index: -1;
+            @include hidden;
+            transition: all 0.3s;
+        }
+
+        a {
+            display: inline-block;
+            position: relative;
+        }
+
+        &:hover {
+            .tangue {
+                top: 7px;
+                @include show;
+                z-index: 1;
+            }
+        }
     }
 
     &__navbar {
@@ -19,6 +39,10 @@
         &-li {
             margin-right: 30px;
             padding: 7px 5px;
+
+            &:hover a {
+                color: #FED217;
+            }
         }
 
         &-a {
