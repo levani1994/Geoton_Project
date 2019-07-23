@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>register</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="popup login__popup">
+        <div class="popup__container">
+            <div class="popup__top">
+                <h4>რეგისტრაცია</h4>
+            </div>
+
+            <div class="popup__bottom">
+                <form>
+                    <div class="form__group">
+                        <label>სახელი</label>
+                        <div class="w-100">
+                            <input name="name" type="text" class="form__control">
+                            <div class="error">სახელი არასწორია</div>
+                        </div>
+                    </div>
+
+                    <div class="form__group">
+                        <label>გვარი</label>
+                        <div class="w-100">
+                            <input name="famale" type="text" class="form__control">
+                            <div class="error">გვარი არასწორია</div>
+                        </div>                   
+                    </div>
+
+                    <div class="form__group">
+                        <label>დაბადების თარიღი</label>
+                        <div class="w-100 relative">
+                            <input name="birth" type="text" class="form__control">
+                            <img class="calendar__img" src="./images/icons/calendar.svg" alt="calendar">
+                            <div class="error">დაბადების თარიღი არასწორია</div>
+                        </div>
+                    </div>
+
+                    <div class="form__group">
+                        <label>ძაღლის ჯიში</label>
+                        <div class="w-100">
+                            <input name="dogType" type="text" class="form__control">
+                            <div class="error">ძაღლის ჯიში არასწორია</div>
+                        </div>
+                    </div>
+
+                    <div class="form__group">
+                        <label>ელ.ფოსტა</label>
+                        <div class="w-100">
+                            <input name="email" type="text" class="form__control">
+                            <div class="error">ელ-ფოსტა არასწორია</div>
+                        </div>
+                    </div>
+
+                    <div class="form__group">
+                        <label>პაროლი</label>
+                        <div class="w-100">
+                            <input name="password" type="text" class="form__control">
+                            <div class="error">პაროლი არასწორია</div>
+                        </div>                  
+                    </div>
+
+                    <div class="form__group">
+                        <label>გაიმეორეთ პაროლი</label>
+                        <div class="w-100">
+                            <input name="repeatPassword" type="text" class="form__control">
+                            <div class="error">პაროლი არასწორია</div>
+                        </div>                     
+                    </div>
+
+
+                    <div class="btns flex justify-center">
+                        <button type="submit" class="btn btn__yellow">რეგისტრაცია</button>
+                        <a href="/" class="btn btn__yellow">გაუქმება</a>
+                    </div>
+
+
+                    <div class="auth">
+                        <span>რეგისტრაცია სოციალური ქსელით</span> <a href="#"><img src="./images/icons/auth.png" alt="auth"></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>

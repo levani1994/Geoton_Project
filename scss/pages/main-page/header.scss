@@ -8,30 +8,6 @@
         height: 130px;
     }
 
-    // left
-    &__logo {
-        .tangue {
-            position: absolute;
-            top: 5px;
-            left: 7px;
-            z-index: -1;
-            @include hidden;
-            transition: all 0.3s;
-        }
-
-        a {
-            display: inline-block;
-            position: relative;
-        }
-
-        &:hover {
-            .tangue {
-                top: 7px;
-                @include show;
-                z-index: 1;
-            }
-        }
-    }
 
     &__navbar {
         margin-left: 90px;
@@ -49,6 +25,31 @@
             font-size: 19px;
             color: #72675F;
             white-space: nowrap;
+        }
+    }
+
+    // left
+    &__logo {
+        .tangue {
+            position: absolute;
+            top: 5px;
+            left: 7px;
+            z-index: -1;
+            @include hidden;
+            transition: all 0.3s;
+        }
+    
+        a {
+            display: inline-block;
+            position: relative;
+        }
+    
+        &:hover {
+            .tangue {
+                top: 7px;
+                @include show;
+                z-index: 1;
+            }
         }
     }
 
