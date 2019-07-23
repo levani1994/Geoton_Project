@@ -65,10 +65,10 @@
 
     label {
         display: inline-block;
-        width: 200px;
+        width: 300px;
         color: #333333;
         font-size: 18px;
-        margin-right: 40px;
+        margin-right: 30px;
     }
 
     .calendar__img {
@@ -85,6 +85,10 @@
         margin-top: 50px;
 
         .btn:nth-child(1) {
+            margin-right: 30px;
+        }
+        
+        .btn:nth-child(2) {
             margin-right: 30px;
         }
     }
